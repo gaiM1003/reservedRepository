@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ようこそ</title>
+</head>
+<body>
+   <h1>バンドスタジオ予約システム</h1>
+    <p>栃木市で一番あたたかいバンドスタジオ</p>
+<button onclick="location.href='http://localhost:8080/studio/'">新規登録</button>
+</body>
+</html>

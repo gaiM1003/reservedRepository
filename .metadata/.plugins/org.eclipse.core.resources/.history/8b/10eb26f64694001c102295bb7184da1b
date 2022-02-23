@@ -1,0 +1,9 @@
+package com.example.demo.mapper;
+
+import com.example.demo.model.Studio;
+
+public interface UserMapper {
+
+	Studio view(long id);
+
+}

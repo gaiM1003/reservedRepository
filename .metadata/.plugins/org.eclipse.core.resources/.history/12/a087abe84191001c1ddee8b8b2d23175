@@ -1,0 +1,24 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@Controller
+public class UserController {
+	@GetMapping(value = "/user")
+	public String getUser(){
+	return "user";
+	}
+
+	@GetMapping(value = "/reserve")
+	public String getReserve(){
+	return "reserve";
+	}
+
+	@GetMapping(value = "/studio")
+	public String getStudio(){
+	return "studio";
+	}
+}

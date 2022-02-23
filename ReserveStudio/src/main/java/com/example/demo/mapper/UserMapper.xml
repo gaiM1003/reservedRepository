@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapperのFQCNを指定 -->
+<mapper namespace="com.example.demo.mapper.UserMapper">
+    <!-- select文はselectタグを利用する．idはインターフェースのメソッド名とする．resultTypeで結果を格納するJavaのオブジェクトを指定 -->
+    <select id="view" resultType="User">
+        SELECT * FROM user_table Where id = #{id}
+    </select>
+</mapper>

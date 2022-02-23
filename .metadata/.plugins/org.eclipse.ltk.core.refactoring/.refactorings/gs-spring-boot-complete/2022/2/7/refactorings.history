@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="パッケージ &apos;com.example.springboot.model&apos; を &apos;demo&apos; にコピー&#x0D;&#x0A;- 元のプロジェクト: &apos;gs-spring-boot-complete&apos;&#x0D;&#x0A;- 宛先要素: &apos;demo&apos;&#x0D;&#x0A;- オリジナル要素: &apos;gs-spring-boot-complete/src/main/java/com.example.springboot.model&apos;" description="パッケージをコピー" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.springboot.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1644628380177" target="/ReserveStudio/src/main/java/com/example/demo" version="1.0"/>
+</session>
